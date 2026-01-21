@@ -1,5 +1,6 @@
 import * as env from "$env/static/public";
 
+export const DB_NAME = env.PUBLIC_DB_NAME;
 export const APP_NAME = env.PUBLIC_APP_NAME;
 export const FIREBASE_CONFIG = {
   apiKey: env.PUBLIC_API_KEY,

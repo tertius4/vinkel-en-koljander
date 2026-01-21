@@ -1,7 +1,9 @@
 <script>
-	import './layout.css';
+  import "./layout.css";
 
-	let { children } = $props();
+  let { children } = $props();
 </script>
 
-{@render children()}
+<div class="p-4 max-w-250 mx-auto">
+  {@render children()}
+</div>
